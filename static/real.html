@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0d0d0c">
+<title>Is this real? | Exa</title>
+<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/static/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/static/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/static/real.css">
+<script src="/static/real.js" defer></script>
+</head>
+<body class="intake">
+<header class="bar">
+  <a class="wordmark" href="/" id="wordmark" aria-label="Is this real?, entry for the Exa challenge">Is this real?<span class="wm-rule" aria-hidden="true"></span><span class="wm-sponsor">Exa</span></a>
+  <nav class="bar-links">
+    <button class="quiet" type="button" id="again" hidden><span class="long">Check something else</span><span class="short">New check</span></button>
+    <a class="quiet" href="#how" id="how-link">How it works</a>
+  </nav>
+</header>
+
+<main class="stage" id="stage">
+  <section class="intro" id="intro">
+    <h1 class="title">Is this real?</h1>
+    <p class="lede">Paste a job or flat offer that feels off. We mark what matters in the message itself, say what to do next and draft a reply.</p>
+  </section>
+
+  <div class="desk" id="desk">
+    <div class="col-doc" id="col-doc">
+    <article class="sheet" id="sheet" aria-labelledby="sheet-label">
+      <div class="sheet-progress" id="sheet-progress" aria-hidden="true"></div>
+      <header class="verdict" id="verdict" hidden>
+        <h2 class="verdict-line" id="verdict-line" tabindex="-1"><i class="m m-lg" id="verdict-mark"></i><span id="verdict-text">Checking</span></h2>
+        <p class="verdict-sub" id="verdict-sub"></p>
+      </header>
+
+      <div class="sheet-body">
+        <p class="sheet-label" id="sheet-label"><label for="value" id="value-label">The offer you were sent</label></p>
+        <p class="provenance" id="provenance" hidden></p>
+        <textarea id="value" rows="3" maxlength="18000" spellcheck="false" autocomplete="off" placeholder="Paste the link or the whole message"></textarea>
+        <div class="doc" id="doc" hidden></div>
+        <div class="compare" id="compare" hidden></div>
+        <div class="doc-notes" id="doc-notes" hidden></div>
+        <div class="peek" id="peek" hidden></div>
+      </div>
+
+      <footer class="sheet-foot" id="sheet-foot">
+        <label class="consent"><input type="checkbox" id="consent"><span class="box" aria-hidden="true"></span><span>No names or bank details. Searched with Exa.</span></label>
+        <div class="go-row">
+          <button class="go" id="check-button" type="button">Check it</button>
+          <p class="go-note" id="availability" role="status"></p>
+        </div>
+      </footer>
+    </article>
+    <button class="try-link" id="try-link" type="button" aria-expanded="false" aria-controls="cases-panel">or try an example</button>
+    <section class="next" id="next" hidden aria-labelledby="next-title">
+      <h2 class="next-title" id="next-title">Ask the sender first</h2>
+      <div class="tabs" id="tabs" role="tablist" aria-label="Drafts" hidden>
+        <button role="tab" type="button" id="tab-reply" aria-controls="panel-reply" aria-selected="true">Reply</button>
+        <button role="tab" type="button" id="tab-report" aria-controls="panel-report" aria-selected="false" tabindex="-1">Report</button>
+      </div>
+      <div class="letter">
+        <div role="tabpanel" id="panel-reply" aria-labelledby="tab-reply">
+          <label class="sr-only" for="reply">Reply draft</label>
+          <textarea id="reply" class="letter-text" rows="2"></textarea>
+          <p class="letter-src" id="reply-src" hidden></p>
+        </div>
+        <div role="tabpanel" id="panel-report" aria-labelledby="tab-report" hidden>
+          <label class="sr-only" for="report">Report draft</label>
+          <textarea id="report" class="letter-text" rows="2"></textarea>
+        </div>
+        <div id="panel-checklist" hidden>
+          <ul class="checklist" id="checklist"></ul>
+        </div>
+        <div class="letter-foot" id="letter-foot">
+          <p class="letter-note">Nothing is sent from here.</p>
+          <button class="copy" id="copy" type="button">Copy reply</button>
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <div class="col-side" id="col-side">
+    <aside class="cases" id="cases-panel" aria-labelledby="cases-title">
+      <h2 class="cases-title" id="cases-title">Or try a real example</h2>
+      <p class="cases-note">From published scam warnings.</p>
+      <ul class="cases-list" id="cases"></ul>
+    </aside>
+
+    <section class="ledger" id="ledger" hidden aria-labelledby="found-title">
+      <p class="sr-only" id="announce" role="status" aria-live="polite"></p>
+      <ul class="steps" id="steps" aria-label="Checks running"></ul>
+      <h3 class="ledger-title" id="found-title" hidden>What matters here</h3>
+      <ol class="found" id="found"></ol>
+      <p class="found-none" id="found-none" hidden>Nothing came back about this offer.</p>
+      <p class="ledger-how">Every line shows its source. None is a verdict.</p>
+    </section>
+
+    <details class="fold" id="fold" hidden>
+      <summary><span>Everything else we checked</span><span class="fold-count" id="fold-count"></span></summary>
+      <ol class="found rest" id="more"></ol>
+      <h4 class="fold-sub" id="unchecked-title" hidden><i class="m" data-p="unknown"></i>What we could not check</h4>
+      <ul class="unchecked-list" id="unchecked-list"></ul>
+    </details>
+    </div>
+  </div>
+
+  <details class="how" id="how">
+    <summary>How it works</summary>
+    <div class="how-body">
+      <p>Exa, a web search service, reads the page or message, then looks for official scam warnings, the organisation&rsquo;s own website, copies of the same text and earlier publications. Simple rules mark pressure wording, such as a same-day deadline or a request for gift cards or crypto.</p>
+      <p>Every line shows where it came from. None is a verdict about a person or company. It is a web check, not an identity check, and a publication date is not the date a site was created.</p>
+      <p>Made for anyone about to send money or documents to a stranger, most of all people new to a country. Do not paste private documents or bank details.</p>
+    </div>
+  </details>
+</main>
+
+<footer class="foot">
+  <p>Junction 2026 entry, Exa challenge. Not made by Exa.</p>
+</footer>
+
+<svg class="threads" id="threads" aria-hidden="true"><path id="thread" d=""/></svg>
+</body>
+</html>

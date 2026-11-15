@@ -1,0 +1,476 @@
+[
+  {
+    "id": "everly-offer",
+    "title": "Everly Melbourne: advertised dress",
+    "input": "https://everly-melbourne.com/products/aurelia",
+    "recorded_at": "2026-11-14T17:18:26.799854+00:00",
+    "first_evidence": 0.0,
+    "events": [
+      {
+        "at": 0,
+        "event": {
+          "type": "evidence",
+          "data": {
+            "check": "Recorded case provenance",
+            "finding": "Original advertised shop page, with its address named in the ACCC warning. Recorded Exa evidence, not a fresh read.",
+            "url": "https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses",
+            "polarity": "could not check"
+          }
+        }
+      },
+      {
+        "at": 0.1,
+        "event": {
+          "type": "evidence",
+          "data": {
+            "check": "What others say",
+            "finding": "Australia's consumer authority (ACCC) lists everly-melbourne.com in a public warning about ghost stores imitating Australian businesses.",
+            "quote": "The ACCC has issued Public Warning Notices to warn consumers about specific conduct by the operators of the following four websites: everly-melbourne.com, willowandgrace-adelaide.com, sophie-claire.com and doublebayboutique.com.",
+            "url": "https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses",
+            "raw_url": "https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses",
+            "published_at": "3 Jul 2025",
+            "attention": true,
+            "polarity": "warning",
+            "source_name": "Australia's consumer authority (ACCC)",
+            "caveat": "This does not show who sent your offer.",
+            "official_warning": true,
+            "anchor": "everly-melbourne.com",
+            "primary": true
+          }
+        }
+      },
+      {
+        "at": 0.2,
+        "event": {
+          "type": "done",
+          "data": {
+            "checked_at": "2026-11-14 17:18 UTC (recorded)",
+            "overall": "An official warning names this address. Do not pay or send documents until you have checked it.",
+            "polarity": "warning",
+            "concerns": 1,
+            "seconds": 10.03,
+            "facts": {
+              "name": "",
+              "kind": "",
+              "source_kind": "",
+              "country": "",
+              "location": "",
+              "role_or_item": "",
+              "price": "",
+              "contact_email": "",
+              "contact_phone": "",
+              "official_domain": "",
+              "distinctive_sentence": ""
+            },
+            "reply": "Thank you for the offer. Before I proceed, please send the registered company name and number; the written terms and an independent way to verify this offer. I will check these independently before sending money or identity documents.",
+            "reply_sources": [
+              "https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses"
+            ],
+            "next_steps": [],
+            "pressure_summary": "No pressure wording found in the message.",
+            "report": "No report drafted: these findings do not verify the sender or establish wrongdoing.",
+            "checklist": "Verify through independently found contact details.\nAsk for the registered company name and number.\nAsk for the written terms and an independent way to verify this offer.",
+            "findings": [
+              {
+                "check": "What others say",
+                "finding": "Australia's consumer authority (ACCC) lists everly-melbourne.com in a public warning about ghost stores imitating Australian businesses.",
+                "quote": "The ACCC has issued Public Warning Notices to warn consumers about specific conduct by the operators of the following four websites: everly-melbourne.com, willowandgrace-adelaide.com, sophie-claire.com and doublebayboutique.com.",
+                "url": "https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses",
+                "raw_url": "https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses",
+                "published_at": "3 Jul 2025",
+                "attention": true,
+                "polarity": "warning",
+                "source_name": "Australia's consumer authority (ACCC)",
+                "caveat": "This does not show who sent your offer.",
+                "official_warning": true,
+                "anchor": "everly-melbourne.com",
+                "primary": true
+              }
+            ],
+            "unavailable": [],
+            "limitations": "A bounded web check, not identity verification. No warning found is not proof of safety. Source publication dates are not domain creation dates.",
+            "presentation_updated_at": "2026-11-14T18:21:07.206648+00:00"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sophie-offer",
+    "title": "Sophie and Claire: advertised blouse",
+    "input": "https://sophie-claire.com/products/vanessa-stunning-v-neck-blouse",
+    "recorded_at": "2026-11-14T17:18:33.661235+00:00",
+    "first_evidence": 0.0,
+    "events": [
+      {
+        "at": 0,
+        "event": {
+          "type": "evidence",
+          "data": {
+            "check": "Recorded case provenance",
+            "finding": "Original advertised shop page, with its address named in the ACCC warning. Recorded Exa evidence, not a fresh read.",
+            "url": "https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses",
+            "polarity": "could not check"
+          }
+        }
+      },
+      {
+        "at": 0.1,
+        "event": {
+          "type": "evidence",
+          "data": {
+            "check": "What others say",
+            "finding": "Australia's consumer authority (ACCC) lists sophie-claire.com in a public warning about ghost stores imitating Australian businesses.",
+            "quote": "The ACCC has issued Public Warning Notices to warn consumers about specific conduct by the operators of the following four websites: everly-melbourne.com, willowandgrace-adelaide.com, sophie-claire.com and doublebayboutique.com.",
+            "url": "https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses",
+            "raw_url": "https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses",
+            "published_at": "3 Jul 2025",
+            "attention": true,
+            "polarity": "warning",
+            "source_name": "Australia's consumer authority (ACCC)",
+            "caveat": "This does not show who sent your offer.",
+            "official_warning": true,
+            "anchor": "sophie-claire.com",
+            "primary": true
+          }
+        }
+      },
+      {
+        "at": 0.2,
+        "event": {
+          "type": "done",
+          "data": {
+            "checked_at": "2026-11-14 17:18 UTC (recorded)",
+            "overall": "An official warning names this address. Do not pay or send documents until you have checked it.",
+            "polarity": "warning",
+            "concerns": 1,
+            "seconds": 6.86,
+            "facts": {
+              "name": "",
+              "kind": "",
+              "source_kind": "",
+              "country": "",
+              "location": "",
+              "role_or_item": "",
+              "price": "",
+              "contact_email": "",
+              "contact_phone": "",
+              "official_domain": "",
+              "distinctive_sentence": ""
+            },
+            "reply": "Thank you for the offer. Before I proceed, please send the registered company name and number; the written terms and an independent way to verify this offer. I will check these independently before sending money or identity documents.",
+            "reply_sources": [
+              "https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses"
+            ],
+            "next_steps": [],
+            "pressure_summary": "No pressure wording found in the message.",
+            "report": "No report drafted: these findings do not verify the sender or establish wrongdoing.",
+            "checklist": "Verify through independently found contact details.\nAsk for the registered company name and number.\nAsk for the written terms and an independent way to verify this offer.",
+            "findings": [
+              {
+                "check": "What others say",
+                "finding": "Australia's consumer authority (ACCC) lists sophie-claire.com in a public warning about ghost stores imitating Australian businesses.",
+                "quote": "The ACCC has issued Public Warning Notices to warn consumers about specific conduct by the operators of the following four websites: everly-melbourne.com, willowandgrace-adelaide.com, sophie-claire.com and doublebayboutique.com.",
+                "url": "https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses",
+                "raw_url": "https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses",
+                "published_at": "3 Jul 2025",
+                "attention": true,
+                "polarity": "warning",
+                "source_name": "Australia's consumer authority (ACCC)",
+                "caveat": "This does not show who sent your offer.",
+                "official_warning": true,
+                "anchor": "sophie-claire.com",
+                "primary": true
+              }
+            ],
+            "unavailable": [],
+            "limitations": "A bounded web check, not identity verification. No warning found is not proof of safety. Source publication dates are not domain creation dates.",
+            "presentation_updated_at": "2026-11-14T18:21:07.206862+00:00"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "willow-offer",
+    "title": "Willow and Grace: advertised dresses",
+    "input": "https://willowandgrace-adelaide.com/collections/dresses",
+    "recorded_at": "2026-11-14T17:18:41.838121+00:00",
+    "first_evidence": 0.0,
+    "events": [
+      {
+        "at": 0,
+        "event": {
+          "type": "evidence",
+          "data": {
+            "check": "Recorded case provenance",
+            "finding": "Original advertised shop page, with its address named in the ACCC warning. Recorded Exa evidence, not a fresh read.",
+            "url": "https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses",
+            "polarity": "could not check"
+          }
+        }
+      },
+      {
+        "at": 0.1,
+        "event": {
+          "type": "evidence",
+          "data": {
+            "check": "What others say",
+            "finding": "Australia's consumer authority (ACCC) lists willowandgrace-adelaide.com in a public warning about ghost stores imitating Australian businesses.",
+            "quote": "The ACCC has issued Public Warning Notices to warn consumers about specific conduct by the operators of the following four websites: everly-melbourne.com, willowandgrace-adelaide.com, sophie-claire.com and doublebayboutique.com.",
+            "url": "https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses",
+            "raw_url": "https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses",
+            "published_at": "3 Jul 2025",
+            "attention": true,
+            "polarity": "warning",
+            "source_name": "Australia's consumer authority (ACCC)",
+            "caveat": "This does not show who sent your offer.",
+            "official_warning": true,
+            "anchor": "willowandgrace-adelaide.com",
+            "primary": true
+          }
+        }
+      },
+      {
+        "at": 0.2,
+        "event": {
+          "type": "done",
+          "data": {
+            "checked_at": "2026-11-14 17:18 UTC (recorded)",
+            "overall": "An official warning names this address. Do not pay or send documents until you have checked it.",
+            "polarity": "warning",
+            "concerns": 1,
+            "seconds": 8.18,
+            "facts": {
+              "name": "",
+              "kind": "",
+              "source_kind": "",
+              "country": "",
+              "location": "",
+              "role_or_item": "",
+              "price": "",
+              "contact_email": "",
+              "contact_phone": "",
+              "official_domain": "",
+              "distinctive_sentence": ""
+            },
+            "reply": "Thank you for the offer. Before I proceed, please send the registered company name and number; the written terms and an independent way to verify this offer. I will check these independently before sending money or identity documents.",
+            "reply_sources": [
+              "https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses"
+            ],
+            "next_steps": [],
+            "pressure_summary": "No pressure wording found in the message.",
+            "report": "No report drafted: these findings do not verify the sender or establish wrongdoing.",
+            "checklist": "Verify through independently found contact details.\nAsk for the registered company name and number.\nAsk for the written terms and an independent way to verify this offer.",
+            "findings": [
+              {
+                "check": "What others say",
+                "finding": "Australia's consumer authority (ACCC) lists willowandgrace-adelaide.com in a public warning about ghost stores imitating Australian businesses.",
+                "quote": "The ACCC has issued Public Warning Notices to warn consumers about specific conduct by the operators of the following four websites: everly-melbourne.com, willowandgrace-adelaide.com, sophie-claire.com and doublebayboutique.com.",
+                "url": "https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses",
+                "raw_url": "https://www.accc.gov.au/media-release/consumers-warned-about-ghost-stores-imitating-australian-businesses",
+                "published_at": "3 Jul 2025",
+                "attention": true,
+                "polarity": "warning",
+                "source_name": "Australia's consumer authority (ACCC)",
+                "caveat": "This does not show who sent your offer.",
+                "official_warning": true,
+                "anchor": "willowandgrace-adelaide.com",
+                "primary": true
+              }
+            ],
+            "unavailable": [],
+            "limitations": "A bounded web check, not identity verification. No warning found is not proof of safety. Source publication dates are not domain creation dates.",
+            "presentation_updated_at": "2026-11-14T18:21:07.207029+00:00"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "job-scamwatch",
+    "title": "Job: task-based recruitment pattern, Scamwatch warning",
+    "input": "You will complete sets of tasks, set up a cryptocurrency account, and may be paid a small sum of money to build your trust. Then, to unlock the next set of tasks and earn your commission you will be told to \u2018top up\u2019 your account with your own money. Once you pay this money, you will never get it back.",
+    "recorded_at": "2026-11-14T18:21:07.207878+00:00",
+    "provenance": {
+      "kind": "authority-reported narrative",
+      "warning_url": "https://www.scamwatch.gov.au/about-us/news-and-alerts/scam-alert-job-recruitment-scams",
+      "warning_published_at": "20 May 2026",
+      "retrieval": "Exa search with text and highlights",
+      "original_offer_recovered": false
+    },
+    "events": [
+      {
+        "at": 0,
+        "event": {
+          "type": "evidence",
+          "data": {
+            "check": "Recorded case provenance",
+            "finding": "Excerpt from an official public warning, not an original offer. Its publisher is not the subject.",
+            "url": "https://www.scamwatch.gov.au/about-us/news-and-alerts/scam-alert-job-recruitment-scams",
+            "polarity": "could not check"
+          }
+        }
+      },
+      {
+        "at": 0.1,
+        "event": {
+          "type": "evidence",
+          "data": {
+            "check": "What others say",
+            "finding": "Australia's Scamwatch says recruits are told to top up an account with their own money to unlock more tasks and commission.",
+            "quote": "to unlock the next set of tasks and earn your commission you will be told to \u2018top up\u2019 your account with your own money",
+            "url": "https://www.scamwatch.gov.au/about-us/news-and-alerts/scam-alert-job-recruitment-scams",
+            "raw_url": "https://www.scamwatch.gov.au/about-us/news-and-alerts/scam-alert-job-recruitment-scams",
+            "published_at": "20 May 2026",
+            "attention": false,
+            "polarity": "worth checking",
+            "source_name": "Australia's Scamwatch",
+            "caveat": "This is an authority-reported pattern, not a recovered original offer or a finding against a named employer or landlord.",
+            "official_warning": false,
+            "anchor": "to unlock the next set of tasks and earn your commission you will be told to \u2018top up\u2019 your account with your own money",
+            "primary": true
+          }
+        }
+      },
+      {
+        "at": 0.2,
+        "event": {
+          "type": "done",
+          "data": {
+            "checked_at": "14 Nov 2026 at 18:21 UTC",
+            "overall": "Australia's Scamwatch describes paying to unlock job tasks.",
+            "polarity": "worth checking",
+            "concerns": 0,
+            "seconds": 0,
+            "facts": {
+              "kind": "job",
+              "source_kind": "warning",
+              "name": ""
+            },
+            "reply": "Thank you for the offer. Before I proceed, please send the company's registered name and registration number; a written employment contract before any payment. I will check these independently before sending money or identity documents.",
+            "reply_sources": [
+              "https://www.scamwatch.gov.au/about-us/news-and-alerts/scam-alert-job-recruitment-scams"
+            ],
+            "next_steps": [],
+            "pressure_summary": "No pressure wording found in the message.",
+            "report": "No report drafted: these findings do not verify the sender or establish wrongdoing.",
+            "checklist": "Verify through independently found contact details.\nAsk for the company's registered name and registration number.\nAsk for a written employment contract before any payment.",
+            "findings": [
+              {
+                "check": "What others say",
+                "finding": "Australia's Scamwatch says recruits are told to top up an account with their own money to unlock more tasks and commission.",
+                "quote": "to unlock the next set of tasks and earn your commission you will be told to \u2018top up\u2019 your account with your own money",
+                "url": "https://www.scamwatch.gov.au/about-us/news-and-alerts/scam-alert-job-recruitment-scams",
+                "raw_url": "https://www.scamwatch.gov.au/about-us/news-and-alerts/scam-alert-job-recruitment-scams",
+                "published_at": "20 May 2026",
+                "attention": false,
+                "polarity": "worth checking",
+                "source_name": "Australia's Scamwatch",
+                "caveat": "This is an authority-reported pattern, not a recovered original offer or a finding against a named employer or landlord.",
+                "official_warning": false,
+                "anchor": "to unlock the next set of tasks and earn your commission you will be told to \u2018top up\u2019 your account with your own money",
+                "primary": true
+              }
+            ],
+            "unavailable": [],
+            "limitations": "A bounded web check, not identity verification. No warning found is not proof of safety. Source publication dates are not domain creation dates."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "rental-action-fraud",
+    "title": "Rental: payment before viewing, Action Fraud warning",
+    "input": "The scams work by offering to let property in prime areas at below market rents and asking for deposits, or in some cases full payment upfront in order to secure the property prior to visiting it, or to prove they have the money in order to rent for the duration.",
+    "recorded_at": "2026-11-14T18:21:07.208323+00:00",
+    "provenance": {
+      "kind": "authority-reported narrative",
+      "warning_url": "https://www.actionfraud.police.uk/news/students-urged-to-watch-out-for-rental-scams",
+      "warning_published_at": "16 Aug 2012",
+      "retrieval": "Exa search with text and highlights",
+      "original_offer_recovered": false
+    },
+    "events": [
+      {
+        "at": 0,
+        "event": {
+          "type": "evidence",
+          "data": {
+            "check": "Recorded case provenance",
+            "finding": "Excerpt from an official public warning, not an original offer. Its publisher is not the subject.",
+            "url": "https://www.actionfraud.police.uk/news/students-urged-to-watch-out-for-rental-scams",
+            "polarity": "could not check"
+          }
+        }
+      },
+      {
+        "at": 0.1,
+        "event": {
+          "type": "evidence",
+          "data": {
+            "check": "What others say",
+            "finding": "The UK's Action Fraud reports below-market rental offers asking for deposits or full payment before a visit.",
+            "quote": "asking for deposits, or in some cases full payment upfront in order to secure the property prior to visiting it",
+            "url": "https://www.actionfraud.police.uk/news/students-urged-to-watch-out-for-rental-scams",
+            "raw_url": "https://www.actionfraud.police.uk/news/students-urged-to-watch-out-for-rental-scams",
+            "published_at": "16 Aug 2012",
+            "attention": false,
+            "polarity": "worth checking",
+            "source_name": "the UK's Action Fraud",
+            "caveat": "This is an authority-reported pattern, not a recovered original offer or a finding against a named employer or landlord.",
+            "official_warning": false,
+            "anchor": "asking for deposits, or in some cases full payment upfront in order to secure the property prior to visiting it",
+            "primary": true
+          }
+        }
+      },
+      {
+        "at": 0.2,
+        "event": {
+          "type": "done",
+          "data": {
+            "checked_at": "14 Nov 2026 at 18:21 UTC",
+            "overall": "The UK's Action Fraud describes deposits requested before a viewing.",
+            "polarity": "worth checking",
+            "concerns": 0,
+            "seconds": 0,
+            "facts": {
+              "kind": "rental",
+              "source_kind": "warning",
+              "name": ""
+            },
+            "reply": "Thank you for the offer. Before I proceed, please send proof of ownership or the letting agent's registration; a viewing and a written tenancy agreement before any deposit. I will check these independently before sending money or identity documents.",
+            "reply_sources": [
+              "https://www.actionfraud.police.uk/news/students-urged-to-watch-out-for-rental-scams"
+            ],
+            "next_steps": [],
+            "pressure_summary": "No pressure wording found in the message.",
+            "report": "No report drafted: these findings do not verify the sender or establish wrongdoing.",
+            "checklist": "Verify through independently found contact details.\nAsk for proof of ownership or the letting agent's registration.\nAsk for a viewing and a written tenancy agreement before any deposit.",
+            "findings": [
+              {
+                "check": "What others say",
+                "finding": "The UK's Action Fraud reports below-market rental offers asking for deposits or full payment before a visit.",
+                "quote": "asking for deposits, or in some cases full payment upfront in order to secure the property prior to visiting it",
+                "url": "https://www.actionfraud.police.uk/news/students-urged-to-watch-out-for-rental-scams",
+                "raw_url": "https://www.actionfraud.police.uk/news/students-urged-to-watch-out-for-rental-scams",
+                "published_at": "16 Aug 2012",
+                "attention": false,
+                "polarity": "worth checking",
+                "source_name": "the UK's Action Fraud",
+                "caveat": "This is an authority-reported pattern, not a recovered original offer or a finding against a named employer or landlord.",
+                "official_warning": false,
+                "anchor": "asking for deposits, or in some cases full payment upfront in order to secure the property prior to visiting it",
+                "primary": true
+              }
+            ],
+            "unavailable": [],
+            "limitations": "A bounded web check, not identity verification. No warning found is not proof of safety. Source publication dates are not domain creation dates."
+          }
+        }
+      }
+    ]
+  }
+]
